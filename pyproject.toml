@@ -1,0 +1,23 @@
+[project]
+name = "product-info-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "anubhavsha45", email = "anubhavsharma0719@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.5.0",
+    "langchain-groq>=1.2.0",
+    "langchain-tavily>=0.2.18",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
+]
+
+[project.scripts]
+product-info-agent = "product_info_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 16",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "price": 79999
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S25",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "price": 74999
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M4",
+      "category": "Laptop",
+      "brand": "Apple",
+      "price": 114999
+    },
+    {
+      "id": 4,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "brand": "Sony",
+      "price": 24999
+    },
+    {
+      "id": 5,
+      "name": "iPad Air",
+      "category": "Tablet",
+      "brand": "Apple",
+      "price": 59999
+    }
+  ]
+}
